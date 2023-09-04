@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+## Application Description
+This application serves as a versatile platform engineered to provide a seamless user interface, capable of adapting to multiple locales. Through the integration of i18n with React, we ensure not only the translation of the text but also a tailored presentation of dates, currencies, and numerical data, all in accordance with the regional preferences (UA, EN, FR). In pursuit of offering an unparalleled user experience, our application has the built-in capability to dynamically switch between locales, promising an intuitive and inclusive interaction for a global audience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Beyond mere translations, the application embodies a robust structure, proficient in handling varied formats of data, including date/time, numbers, and currencies, aligning with the local standards of the predefined locales. To safeguard the consistency and reliability of the user interface, an advanced error-handling mechanism has been implemented. This feature meticulously handles any missed translations or localizations, ensuring the stability and functionality of the application are never compromised, promising a smooth and error-free user journey.
 
-## Available Scripts
+## How to Run the Application Locally
+- First, clone the repository to your local machine using git clone <repository_url>.
+- Navigate to the project directory by using cd <project_name>.
+- Install all the necessary dependencies with npm install.
+- To start the application, run npm start.
+- The application should now be running locally. Open your browser and visit http://localhost:3000/ to access the application.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Changing Locale through the Language Selector Component
+Our application is equipped with a dynamic language selector component, enhancing user accessibility by allowing swift and seamless transitions between different language preferences. Below, find guidelines on how to interact with this component to switch between the predefined locales:
+Locate the language selector component, typically represented with a globe icon or a dropdown menu at the top right corner of the application.
+Click on the selector to unveil a list of available languages: Ukrainian (UA), English (EN), and French (FR).
+Select your preferred language from the list. The application will instantly refresh to display content in the chosen language, along with respective regional data formatting for dates, numbers, and currencies.
